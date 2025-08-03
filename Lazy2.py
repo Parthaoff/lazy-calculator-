@@ -11,7 +11,7 @@ def lazy_thinking_message():
     ]
     for t in thoughts:
         print(t)
-        time.sleep(1.5)  # Slowed down thinking
+        time.sleep(1.5) 
 
 def lazy_add(a, b):
     lazy_thinking_message()
@@ -58,6 +58,4 @@ def lazy_calculator():
             print("😴 I don't do real math anymore. Ever.")
             print("🤐 Don't tell your math teacher about me!")
             break
-
-# Run the lazy calculator
 lazy_calculator()
