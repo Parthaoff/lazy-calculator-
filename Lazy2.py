@@ -1,3 +1,4 @@
+
 import random
 import time
 
@@ -17,7 +18,7 @@ def lazy_add(a, b):
     lazy_thinking_message()
     if random.random() < 0.4:
         print("✅ Okay, I *think* this is the right answer:")
-        time.sleep(1)
+        time.sleep(100)
         return a + b
     else:
         print("🙄 I'm just guessing at this point...")
@@ -28,7 +29,7 @@ def lazy_add(a, b):
 
 def intro():
     print("=" * 42)
-    print("🤖 Welcoming you to the LAZY CALCULATOR 3000 🥱")
+    print("🤖 Welcoming you to the CALCULATOR LIKE YOU🥱")
     print("      (Math... but with minimum effort)")
     print("=" * 42)
     time.sleep(3)
